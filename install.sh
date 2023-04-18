@@ -21,5 +21,6 @@ composer self-update --2
 # Install Composer modules
 composer install
 
+docker-compose up
 
 exec "$@"

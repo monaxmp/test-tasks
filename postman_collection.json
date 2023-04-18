@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "b96dbd7c-1376-4e3e-9e28-78072429ef39",
+		"name": "test-tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6988140"
+	},
+	"item": [
+		{
+			"name": "get",
+			"protocolProfileBehavior": {
+				"disableCookies": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "pol.lts/api?name=12&expand=status,polyclinic,treatment,formDisease,updatedBy&auth_key=qyftGvqeDsWenw2pVFzOlm_7u1OhdwpZ",
+					"host": [
+						"pol",
+						"lts"
+					],
+					"path": [
+						"api"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "12"
+						},
+						{
+							"key": "expand",
+							"value": "status,polyclinic,treatment,formDisease,updatedBy"
+						},
+						{
+							"key": "auth_key",
+							"value": "qyftGvqeDsWenw2pVFzOlm_7u1OhdwpZ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"protocolProfileBehavior": {
+				"disableCookies": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "3333",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "333",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "545654654564",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "phone",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "status_id",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "treatment_id",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "form_disease_id",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "diagnosis_date",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "recovery_date",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "analysis_date",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "source_id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "polyclinic_id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "pol.lts/api/create?auth_key=qyftGvqeDsWenw2pVFzOlm_7u1OhdwpZ",
+					"host": [
+						"pol",
+						"lts"
+					],
+					"path": [
+						"api",
+						"create"
+					],
+					"query": [
+						{
+							"key": "auth_key",
+							"value": "qyftGvqeDsWenw2pVFzOlm_7u1OhdwpZ"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

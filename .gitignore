@@ -31,10 +31,3 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
-/runtime/
-/docker/mysql/
-/docker/mysql/
-/web/assets/
-/docker/nginx/logs/
-/docker/nginx/logs/
-/docker/nginx/logs/

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\aip;
+namespace app\modules\api;
 
 use app\models\User;
 use Yii;
@@ -13,7 +13,7 @@ class modules extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'app\modules\aip\controllers';
+    public $controllerNamespace = 'app\modules\api\controllers';
 
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\aip\models;
+namespace app\modules\api\models;
 
 
 /**

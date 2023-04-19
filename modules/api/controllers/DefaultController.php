@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\aip\controllers;
+namespace app\modules\api\controllers;
 
-use app\modules\aip\models\Patient;
+use app\modules\api\models\Patient;
 use app\models\User;
 use Yii;
-use app\modules\aip\models\PatientSearch;
+use app\modules\api\models\PatientSearch;
 use yii\rest\Controller;
 use yii\web\Response;
 

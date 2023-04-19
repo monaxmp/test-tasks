@@ -87,7 +87,7 @@ $config = [
                 },
         ],
         'api' => [
-            'class' => 'app\modules\aip\modules',
+            'class' => 'app\modules\api\modules',
         ],
     ],    
     'params' => $params,

@@ -37,3 +37,4 @@ tests/_support/_generated
 /web/assets/
 /docker/nginx/logs/
 /docker/nginx/logs/
+/docker/nginx/logs/

@@ -16,11 +16,11 @@ chmod 0777 ./runtime
 chmod 0777 ./web/assets
 
 #Update Composer to v2
-composer self-update --2
+#composer self-update --2
 
 # Install Composer modules
-composer install
+#composer install
 
-docker-compose up
+#docker-compose up
 
 exec "$@"
